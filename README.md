@@ -1,2 +1,2 @@
 # python_mini_projects
-A repository for amazing mini projects on python.
+A repository for amazing mini projects in python.
