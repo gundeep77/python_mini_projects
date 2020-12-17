@@ -1,0 +1,2 @@
+# automatic_event_wisher
+Created an automated birthday reminder program, which checks birthdays or any events from a list of friends daily and reminds you if someone's birthday is on that day and sends a greeting message via email automatically. Used task scheduler.
