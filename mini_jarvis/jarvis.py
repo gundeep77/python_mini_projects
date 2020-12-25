@@ -189,8 +189,6 @@ if __name__ == '__main__':
 
                 flag = 1
                 while flag:
-                    if to == 'gurdeep':
-                        to = 'gundeep'
                     for i, j in df.iterrows():
                         if to in j['Name'].lower():
                             to = j['Email']
