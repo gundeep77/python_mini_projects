@@ -11,7 +11,8 @@ my_email = os.environ["EMAIL_ADDRESS"]
 my_password = os.environ["EMAIL_PASSWORD"]
 
 def send_mail(msg):
-    server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+    server = smtplib.SMTP('smtp.gmail.com', 587)
+    server.starttls()
     server.login(my_email, my_password)
     server.send_message(msg)
     server.close()
