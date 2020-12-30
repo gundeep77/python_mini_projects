@@ -28,7 +28,7 @@ for i, j in df.iterrows():
             title = j['Name'] + "'s " + j['Event'] + "!",
             message = j['Event'] + " wish sent!",
             timeout = 10,
-            app_icon = "D:\PythonProjects\Extras\event_wisher\event.ico"
+            app_icon = "D:\\PythonProjects\\Extras\\automatic_event_wisher\\event.ico"
         )
         if j['Email'] != 'BLANK':
             emails = j['Email'].split(',')
