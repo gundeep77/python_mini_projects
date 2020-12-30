@@ -127,9 +127,12 @@ if __name__ == '__main__':
 
 
         elif 'open vs code' in query:
-            speak("Opening VS Code...")
-            path = "C:\\Users\\gssal\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
-            os.startfile(path)
+            try:
+                speak("Opening VS Code...")
+                path = "C:\\Users\\gssal\\AppData\\Local\\Programs\\Microsoft VS Code\\Cod.exe"
+                os.startfile(path)
+            except:
+                speak("Sorry, there is no such application in your system")
 
 
         elif 'play music' in query or 'play some music' in query or 'play any song' in query or 'start music' in query or 'play a song' in query or 'listen to music' in query or 'play song' in query or 'play another song' in query or 'play some other song' in query or 'listen to a song' in query or 'listen to song' in query:
