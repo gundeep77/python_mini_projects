@@ -99,6 +99,9 @@ if __name__ == '__main__':
 
         elif 'tell me a joke' in query:
             speak("don't trust the atoms, they make up everything")
+        
+        elif 'are you there' in query:
+            speak("Yes sir, I'm here")
 
 
         elif 'tell me about' in query or 'i want to know about' in query or 'who is' in query or 'what is' in query or 'where is' in query or 'who are' in query or 'what are' in query or 'where are' in query:
