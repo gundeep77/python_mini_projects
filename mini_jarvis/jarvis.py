@@ -21,7 +21,7 @@ engine = pyttsx3.init()  # Microsoft Speech API, we can use the built-in voice o
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 volume = engine.getProperty('volume')
-engine.setProperty('volume', 0.6)
+engine.setProperty('volume', 1.0)
 
 webbrowser.register('edge', None,
                     webbrowser.BackgroundBrowser("C:\\Program Files (x86)\\Microsoft\Edge\\Application\\msedge.exe"))

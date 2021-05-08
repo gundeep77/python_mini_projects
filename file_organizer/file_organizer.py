@@ -1,7 +1,11 @@
 import os
 import shutil
 
-folders = {"Images": ['.png', '.jpeg', '.jpg', '.ico'], "Music": ['.mp3', '.wav', '.m4a'], "Videos": ['.mp4', '.avi', '.mkv', '.wmv', '.flv'], "Archives": ['.rar', '.zip', '.iso', '.tar'], "PDF Files": ['.pdf'], "Python Files": ['.py', '.pyw', '.ipynb', '.pyc'], "Applications": ['.exe', '.app'], "Documents": ['.doc', '.docx'], "Spreadsheets": ['.xls', '.xlsx', '.xlsm'], "Text Files": ['.txt'], "Java Files": ['.class', '.java'], "C++ Files": ['.c', '.cpp'], "Shortcuts": ['.lnk']}
+folders = {"Images": [".jpeg", ".jpg", ".tiff", ".gif", ".bmp", ".png", ".bpg", "svg",
+               ".heif", ".psd", ".ico"], "Music": [".aac", ".aa", ".aac", ".dvf", ".m4a", ".m4b", ".m4p", ".mp3",
+              ".msv", "ogg", "oga", ".raw", ".vox", ".wav", ".wma"], "Videos": [".avi", ".flv", ".wmv", ".mov", ".mp4", ".webm", ".vob", ".mng",
+               ".qt", ".mpg", ".mpeg", ".3gp"], "Archives": [".a", ".ar", ".cpio", ".iso", ".tar", ".gz", ".rz", ".7z",
+                 ".dmg", ".rar", ".xar", ".zip"], "PDF Files": ['.pdf'], "Python Files": ['.py', '.pyw', '.ipynb', '.pyc'], "Applications": ['.exe', '.app', '.apk'], "Documents": ['.doc', '.docx', '.docm', '.dot'], "Spreadsheets": ['.xls', '.xlsx', '.xlsm'], "Text Files": [".txt", ".in", ".out"], "Java Files": ['.class', '.java'], "C++ Files": ['.c', '.cpp'], "JSON Files": [".json"], "Presentations": [".ppt", ".pptm", ".pptx"]}
 
 extensions = {}
 for folder,ext_list in folders.items():
